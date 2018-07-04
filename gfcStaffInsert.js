@@ -26,11 +26,14 @@ const createInserts = (record, callback) => {
     email = "";
   }
 
-  let message = `INSERT INTO public.churchstaff (name, position, emailaddress) VALUES ('${name}','${position}','${email}');`;
+  let message = `INSERT INTO public.churchstaff (id, name, position, emailaddress) VALUES (${iterator}, '${name}','${position}','${email}');`;
+  iterator += 1;
+  
   setTimeout(() => {
     // build ouput here
     callback(null, `${message}\n`);
   }, DELAY_TIME);
+  count =+ 1;
 };
 
 const transformer = transform(createInserts);
