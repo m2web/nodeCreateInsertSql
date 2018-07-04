@@ -26,7 +26,7 @@ const createInserts = (record, callback) => {
     email = "";
   }
 
-  let message = `INSERT INTO public.churchstaff (id, name, position, emailaddress) VALUES (${iterator}, '${name}','${position}','${email}');`;
+  let message = `INSERT INTO public.churchstaff (name, position, emailaddress, staffNumber) VALUES ('${name}','${position}','${email}', ${iterator});`;
   iterator += 1;
   
   setTimeout(() => {
