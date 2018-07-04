@@ -1,0 +1,39 @@
+{
+  "name": "nodecreateinsert",
+  "version": "1.0.0",
+  "description": "Node scripts to build insert statements",
+  "main": "index.js",
+  "scripts": {},
+  "author": "Mark McFadden",
+  "license": "MIT",
+  "homepage": "https://github.com/m2web",
+  "dependencies": {
+    "archiver": "^1.2.0",
+    "bitly": "^4.1.1",
+    "color": "^3.0.0",
+    "colors": "^1.1.2",
+    "csv": "^2.0.0",
+    "csv-parse": "^2.5.0",
+    "fs-extra": "^4.0.2",
+    "http-server": "^0.10.0",
+    "minimist": "^1.2.0",
+    "nodemailer": "^4.4.0",
+    "normalize-package-data": "^2.4.0",
+    "opn": "^5.1.0",
+    "readline-sync": "^1.4.5",
+    "shelljs": "^0.7.5",
+    "stream-transform": "^1.0.2",
+    "twilio": "^3.17.4"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-config-airbnb-base": "^13.0.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-node": "^5.1.1",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-react": "^7.4.0",
+    "eslint-plugin-standard": "^3.0.1"
+  }
+}
